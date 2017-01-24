@@ -60,16 +60,67 @@ Test-drven Development
 Process models
 
 -    Describe the four parts of the v-diagrams?
+
+    + Planning, coding, unit test and system test.
+
      -     Which part(s) of the v-diagram takes most time?
+
+     +  Planning
+
      -     Which part(s) take least time?
+
+     +  Coding
+
 -    Name, in order, at least four stages of waterfall model? 
+
+    + Plan-->Requirement-->Develop-->Test-->Deploy-->Operate
+
      -     Why is it called waterfall model?
+
+     + It's a downstream serial process.
+
 -    Give an example application where the waterfall model might be suitable for. 
+
+    +  Project is short, or the product definition is very stable.
+
 -    What are the  major disadvantages of the waterfall model?
+
+    + Once an application is in the testing stage, it is very difficult to go back and change something that was not well-thought out in the concept stage.
+    + No working software is produced until late during the life cycle.
+    + High amounts of risk and uncertainty.
+    + Not a good model for complex and object-oriented projects.
+    + Poor model for long and ongoing projects.
+    + Not suitable for the projects where requirements are at a moderate to high risk of changing.
+
+
 -    Describe the agile model. 
      -     What are its key differences compared to waterfall model?
-     -     What are some potential disadvantes of agile?
+
+     +  Decompose development into multiple short sprints (Plan, design, develop, test)
+     +  Less up-front planning, less up-front design
+     +  More testing as part of the development, less reliance on downstream testing
+     +  Catch problems earlier, avoid downstream rework
+     +  Get and respond to feedback earlier, deliver the right thing faster.
+
+     -     What are some potential disadvantages of agile?
+
+     +  In case of some software deliverables, especially the large ones, it's difficult to assess
+        the effort required at the beginning of the software development life cycle.
+
+     +  There's a lack of emphisis on necessary designing and documenting.
+     +  The project can easily get taken off track if the customer representative is not clear what final outcome that they want.
+     +  Only senior programmers are capable of taking the kind of decisions required during the development process.
+        Hence it can be harder for newbies to be agile, unless combined with experienced resources.
+
 -    Describe  DevOps? Why it is called DevOps?
+     +  Development and bussiness do continuous planning using backlog.
+     +  Continously conduct design experiments (A/B testing, dark features, etc.)
+     +  Development does continously integration and continously testing.
+     +  Enable automation of testing and everything else by putting APIs on everything.
+     +  DevOps: Improve collaboration between Dev and Ops.
+     +  Make support easier -- monitoring, problem determination, etc.
+
+     +  It's called DevOps becuase operation phase in integrated into development.
 
 
 Surveys
