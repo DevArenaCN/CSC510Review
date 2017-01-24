@@ -26,15 +26,15 @@ Test-drven Development
 
 ### Advantage
 
-     + Over-engineering. I have a tendency to "throw in" functionality I "know" I'm "going to need". Making one red tes
-     t green (along with the list of future tests) helps me implement just enough. I need to find a new way to stay focused.
-     + API feedback. Get quick feedback about my API decisions.
-     + Logic errors. Catches pesky errors.
-     + Documentation. Communicate how I expect APIs to be used and to record what I was thinking during development.
-     + Feeling overwhelmed. With TDD, even if I couldn't imagine an implementation I could almost always figure out how to write a test (finding the next "step up the mountain").
-     + Separate interface from implementation thinking. I have a tendency to pollute API design decisions with implementation speculation. TDD separates the two levels of thinking while still providing rapid feedback between them.
-     + Agreement. A way to be precise with a programming partner about what problem I'm solving.
-     + Anxiety. TDD gives me an instantaneous "Is Everything Okay?" button.
++ Over-engineering. I have a tendency to "throw in" functionality I "know" I'm "going to need". Making one red test green (along with the list of future tests) helps me implement just enough. I need to find a new way to stay focused.
++ API feedback. Get quick feedback about my API decisions.
++ Logic errors. Catches pesky errors.
++ Documentation. Communicate how I expect APIs to be used and to record what I was thinking during development.
++ Feeling overwhelmed. With TDD, even if I couldn't imagine an implementation I could almost always figure out how to write a test (finding the next "step up the mountain").
++ Separate interface from implementation thinking. I have a tendency to pollute API design decisions with implementation speculation. TDD separates the two levels of thinking while still providing rapid feedback between them.
++ Agreement. A way to be precise with a programming partner about what problem I'm solving.
++ Anxiety. TDD gives me an instantaneous "Is Everything Okay?" button.
+
 
 ### Disadvantages
 
