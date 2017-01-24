@@ -22,9 +22,9 @@ Test-drven Development
       + Reverting to known good code if the test continues to fail
       + If after a few attempts you can't make the test pass, consider starting over with a different test, possibly employing even less code. 
 
--    What are advantages and disadvantages of test-driven development?
+- What are advantages and disadvantages of test-driven development?
 
-     ### Advantage
+### Advantage
 
      + Over-engineering. I have a tendency to "throw in" functionality I "know" I'm "going to need". Making one red test green (along with the list of future tests) helps me implement just enough. I need to find a new way to stay focused.
      + API feedback. Get quick feedback about my API decisions.
