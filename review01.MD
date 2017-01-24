@@ -26,7 +26,8 @@ Test-drven Development
 
 ### Advantage
 
-     + Over-engineering. I have a tendency to "throw in" functionality I "know" I'm "going to need". Making one red test green (along with the list of future tests) helps me implement just enough. I need to find a new way to stay focused.
+     + Over-engineering. I have a tendency to "throw in" functionality I "know" I'm "going to need". Making one red tes
+     t green (along with the list of future tests) helps me implement just enough. I need to find a new way to stay focused.
      + API feedback. Get quick feedback about my API decisions.
      + Logic errors. Catches pesky errors.
      + Documentation. Communicate how I expect APIs to be used and to record what I was thinking during development.
@@ -37,22 +38,21 @@ Test-drven Development
 
 ### Disadvantages
 
-
    + Notes that _unit tests_ are very small while _function tests_ (aka _system tests_) are much larger, much more complex.
-    + Much slower to run, not the kind of thing to give you instant feedback.
-     + "Tests might be more complex than the actual code."
-     + "Unit tests are unlikely to test more than one
+   + Much slower to run, not the kind of thing to give you instant feedback.
+   + "Tests might be more complex than the actual code."
+   + "Unit tests are unlikely to test more than one
       trillionth of the functionality of any given method in a
        reasonable testing cycle. Get over it."
-     + "If you find your testers splitting up
+   + "If you find your testers splitting up
       functions to support the testing process,
       you’re destroying your system architecture and
       code comprehension along with it. **Test at a coarser level of granularity.**"
-     + "Tests should be designed with great care. Business
+   + "Tests should be designed with great care. Business
       people, rather than programmers, should design most
        functional tests. Unit tests should be limited to those that
        can be held up against some “third-party” success criteria."
-     + "If you have a large unit test mass, evaluate the feedback
+   + "If you have a large unit test mass, evaluate the feedback
       loops in your development process. Integrate code more
       frequently; reduce the build and integration times; cut the
       unit tests and go more for integration testing. "
@@ -75,7 +75,7 @@ Process models
 
     + Plan-->Requirement-->Develop-->Test-->Deploy-->Operate
 
-     -     Why is it called waterfall model?
+     -  Why is it called waterfall model?
 
      + It's a downstream serial process.
 
