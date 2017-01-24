@@ -134,7 +134,7 @@ Surveys
      -  Focus groups
      -  Think aloud
      -  Data analysis (using data mining)
--    Pick any two of the above survery methods  and describe how one can be **better** than the other.
+-    Pick any two of the above survery methods and describe how one can be **better** than the other.
 -    Pick any two of the above survey methods and describe one can be **worse** than the other.
 
 
