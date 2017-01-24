@@ -136,13 +136,13 @@ Surveys
           +  Collecting information from many responders using a questionnaire
 
      -  Focus groups
-     +  Small pool of participants give feedback on prepared material (e.g. paper prototype)  
+          +  Small pool of participants give feedback on prepared material (e.g. paper prototype)  
 
      -  Think aloud
-     +  Participant vocalizes thought processes during study.
+          +  Participant vocalizes thought processes during study.
 
      -  Data analysis (using data mining)
-     +  Qualitative data analysis that generates (as opposed to test) theory by abduction, constant comparison, and theoretical sampling.  
+          +  Qualitative data analysis that generates (as opposed to test) theory by abduction, constant comparison, and theoretical sampling.  
 
 -    Pick any two of the above survery methods and describe how one can be **better** than the other.
 -    Pick any two of the above survey methods and describe one can be **worse** than the other.
