@@ -44,17 +44,84 @@ Becuase at first, lack of maturity requires focus on risk and uncertainty issues
 ## Process planning:
 
 0.    Draw the v-diagram. Divide into 
+
+![vmodel](https://github.com/txt/se17/blob/master/img/vmodel.png)
+
+Software =
+
+1/3 planning (requirements, design)
+1/6th coding,
+1/4 unit test,
+1/4 system test
+
+
 1.    Spiral models
        - What is the commit partition?
+
+A place to say stop! save money! Projects are canned if we get to the commit point, and some critical functionality is still not working.
+
        - How is spriral connected to waterfall?
+
+In the development part of spirial, it uses the waterfall model.
+
       - How is the spiral model _different_ to waterfall model?
+
+In case of a waterfall model, the stages are in a sequence. Once one stage is over, the process moves to the next phase. Hence, accommodating changes in the middle is difficult. On the other hand, accommodating changes in requirement is easy in a spiral model. This is because we need not start from the beginning because prototypes are created in every phase. Secondly, because of the sequential nature of Waterfall model, if any mistake is done in between of a phase, we may need to begin from scratch. On the other hand, in spiral model because the prototypes are tested at the end of each phase, mistakes can be handled.
+
       - How is the spiral model _the same_ as the waterfall model?
+
+In the development process of spiral, it contains several waterfall models.
+
 2.    When spiral model should not be practiced? Explain.
-3.    Facebook ships many small  changes , very often.
+
+Hard to go Spiral if you work for an external software consultants who are struggling for jobs, since any cancellation may be fatal to their plans.
+
+3.    Facebook ships many small changes, very often.
       -  Which kind of s/w strategy method this is? 
+
+Many bangs
+
 4.    What are the phases of Test Driven Development cycle?
+
+RED: Start by thinking of a behavior you want the software to have which could be implemented by a few lines of code (fewer than five is a good target). Then write a test (also only a few lines of code) that will fail unless that behavior is present. 
+
+GREEN: Write just enough code to get the test to pass. 
+
+REFACTOR: Now that the code does what you want, use refactoring to make the design right.
+
+
       -  List and explain three advantages of Test Driven Development?
+
+Over-engineering. I have a tendency to "throw in" functionality I "know" I'm "going to need". Making one red test green (along with the list of future tests) helps me implement just enough. I need to find a new way to stay focused.
+API feedback. Get quick feedback about my API decisions.
+
+Logic errors. Catches pesky errors.
+
+Documentation. Communicate how I expect APIs to be used and to record what I was thinking during development.
+
+Feeling overwhelmed. With TDD, even if I couldn't imagine an implementation I could almost always figure out how to write a test (finding the next "step up the mountain").
+
+Separate interface from implementation thinking. I have a tendency to pollute API design decisions with implementation speculation. TDD separates the two levels of thinking while still providing rapid feedback between them.
+
+Agreement. A way to be precise with a programming partner about what problem I'm solving.
+
+Anxiety. TDD gives me an instantaneous "Is Everything Okay?" button.
+
       -  List and explain three disadvantages of Test Driven Development?
+
+Notes that unit tests are very small while function tests (aka system tests) are much larger, much more complex.
+Much slower to run, not the kind of thing to give you instant feedback.
+
+"Today however, my team told me the tests are more complex than the actual code."
+
+"Unit tests are unlikely to test more than one trillionth of the functionality of any given method in a reasonable testing cycle. Get over it."
+
+"If you find your testers splitting up functions to support the testing process, you’re destroying your system architecture and code comprehension along with it. Test at a coarser level of granularity."
+
+"Tests should be designed with great care. Business people, rather than programmers, should design most functional tests. Unit tests should be limited to those that can be held up against some “third-party” success criteria."
+
+"If you have a large unit test mass, evaluate the feedback loops in your development process. Integrate code more frequently; reduce the build and integration times; cut the unit tests and go more for integration testing. "
+
 
 ## Effort estimation
 
