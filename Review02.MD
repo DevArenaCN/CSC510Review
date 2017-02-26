@@ -22,9 +22,6 @@ Problem2: Better,Faster,Cheaper (pick any two). Deliver faster, spend less money
 
 Problem3: Relucatance to Learn from Experience. When engineers fail to revise their beliefs, this leads to poor estimates.
 
-4.    Describe two problems of underestimating effort.
-
-
 
 5.    Boehm reports a certain shape in the cost-estimation uncertainty curve as a project moves from initial planning to final delivery
     - Draw that shape
