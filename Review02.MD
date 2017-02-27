@@ -156,20 +156,59 @@ _  = None;  Coc2tunings = [[
 
 1.     COCOMO is a parametric effort estimation methods
       - What is the central intuition of the COCOMO equation?
+
+
+
       - Write down the COCOMO equation (hint: it should fit in half a line)
+
+
+_Effort = a * KLOC<sup>(b + C/100)</sup> * D_
+
       - What are the for "P" of the COCOMO attributes? Give one example of each "P"
+
+People required.
+
       - In COCOMO co-effecients are shown above, what is `acap` ? What happens to project development effort when it is increased? Why?
+
+Analyst capability. 
+
+
       - In COCOMO co-effecients are shown above, what is `cplx` ? What happens to project development effort when it is increased? Why?
+
+Product complexity.
+
       - From the above parameters, find how much faster a fully distributed system compared to a fully
 centralized site. If needed, you may assume that the system has 100,000 lines of code.
-2.    What is delphi based method? 
+
+
+
+2.    What is delphi based method?
+
+Use human expertise (possibly augmented with process guidelines, checklists, and data) to generate predictions 
+       
        - Why use it instead of COCOMO?
+
+Good for producing one estimate, not a range of estimates.
+
 3.    "Planning poker" is  strategy is suitable for group discussion effort estimation environment
       -  Describe this approach plus one advantage and one disadvantage of using this method.
+
+Advantage: By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
+
+Disadvantage: A study by Moløkken-Østvold and Haugen found that [the] set of control tasks in the same project, estimated by individual experts, achieved similar estimation accuracy as the planning poker tasks. However, for both planning poker and the control group, measures of the median estimation bias indicated that both groups had unbiased estimates, as the typical estimated task was perfectly on target.
+
 4.    What is no estimate method? When might it be s necessary? 
+
+Just work on projects until they don't make sense, then change gears.
+
+If your organization makes enough money to run itself, and if you view time spent estimating as time not developing, then you might abandon estimates and just write code. 
+
 5.    Case base reasoning is called a non-parametric method.
       - Why? Hint: your answer will have to describe how it works
-      - Give  2 advantages and disadvantages of CBR.
+      - Give 2 advantages and disadvantages of CBR.
+
+Firstly, when the cache of past cases is updated and appended with additional cases, then a CBR system is instantly updated to the latest findings.
+Secondly, the output of a CBR is made on a case-by-case basis. That is, CBR does not offer some trite generalization over multiple examples. Rather, the advice it gives is specialized to the particular case being considered at the current time.
  
  
 ## Requirements
