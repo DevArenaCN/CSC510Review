@@ -216,11 +216,24 @@ Secondly, the output of a CBR is made on a case-by-case basis. That is, CBR does
 ![](http://www.isa.us.es/sites/www.isa.us.es.featuremodelanalysis/files/images/MobilePhone.png)
 
 1.   Consider the above feature model of a mobile phone. What features are allowed and forbidden in this diagram?
+
+Allowed: calls, Screen   Forbidden: Camera without high resolution screen, GPS with basic screen
+
 2.   Consider the design of a car. Every car has a body, transmission, and engine. 
      A car does not necessarily have a trailer. The engine may be powered with gasoline or with electricity or with both. Draw a feature model for car.
+
+
+
 2.   A client has asked you to develop a word processor. 
      - Write two non functional requirements for this scenario.
        For each, list factors that make them easier or harder to fill
+
+
+
      - List two functional requirements
        For each, list factors that make them easier or harder to fill
+
+
+
+       
 
