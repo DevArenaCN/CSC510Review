@@ -39,7 +39,19 @@ ______________________________________________
  
 5)    Write two advantages of state chart. 
 
+Directly translatable to executable code. Many tools from the formal verification community to prove properties across FSMs + WHich is very important for safety critical software
+
+
+
+
 6)  When state chart is not recommended?
+
+hard to maintain unless auto-generated from some higher-level spec
+hard to scale (all that detail! oh my!)
+also, very low-level: hard to get that much information about all systems.
+Cannot be used when interfacing to another black-box system you know nothing about
+Irrelevant for the mash-up world (no knowledge of internals)
+
 
 7 )  Draw a state chart for the following states and transitions:
 struct transition state_transitions [] = {
@@ -55,14 +67,40 @@ struct transition state_transitions [] = {
 
 8) Write three differences between SQL and No-SQL.
 
+SQL databases are table based databases whereas NoSQL databases are document based, key-value pairs, graph databases or wide-column stores. 
+
+SQL databases have predefined schema whereas NoSQL databases have dynamic schema for unstructured data.
+
+SQL databases are vertically scalable whereas the NoSQL databases are horizontally scalable.
+
+SQL databases uses SQL ( structured query language ) for defining and manipulating the data, which is very powerful. In NoSQL database, queries are focused on collection of documents
+
 9)    Suppose you have three tables in database: University, Subject and Student. What are insert, update and delete anomalies in this context?
+
+
+
 
 10)    How ER based model solves different anomalies for the above scenario? Explain.
 
-11)    Why doe some people claim ER is not suitable for agile development?
+
+
+11)    Why does some people claim ER is not suitable for agile development?
+
+One of the advantage of Agile is that it has the ability to regular adapt changing circumstances, for ER model it's hard to change and harder to scale.
+
+
 
 12)    What state chart and ER based models have in common?
 
+They can be directly implemented into code.
+
 13)    What is compartmental model? Give a small example of using this model for a grocery shop supply chain from warehouse to supermarket shelves.
 
+
+
 14)    What are the limitations of compartmental model?
+
+many (most) programming tasks are time-less. So CM is not applicable to general models.
+
+
+
