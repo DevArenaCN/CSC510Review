@@ -4,7 +4,7 @@
 
 
 1.    What are drawbacks of early requirement addressing?
-
+premature commitment to the wrong ideas can misdirect a project. advocates of agile claim better to get some experience before fully creating requirements
 
 2.    Define and distinguish unit, system and integration testing.
 
