@@ -12,7 +12,7 @@ Something that lets you work alone half the time, team members can be productive
 2. Package switching network (PSN):
        - Define the components of a PSN
 
-Nodes, hosts, packets.
+Nodes, hosts, packets. psn = package swtich network. nodes edges. data labelled with distination node ids streaming over the edges. if a package arrives at a node that is its distination, it is eaten there. else, it is dispatch owards
 
        - What other architecture was package switching designed to replace?
 
@@ -31,9 +31,16 @@ Won't jammed up if one of the hosts are experiencing heavy traffic.
 
 Blackboard: global database and knowledge source: logically independent sources of knowledge
 
+7a) agents, buzzing around a shared data space.
+7b) the shared data space (a.k.a. the blackboard)
+7c) agents watch the blackboard, not each other
+7d) for advanced pattern recognition applications, the blackboard is divided hierarchically and agents read from layer i to write some high-lelvel knowledge to layer i+1
+
        - For which projects are  blackboard architectures are ideal?  
 
  Each knowledge source updates the blackboard with a partial solution when its internal constraints match the blackboard state. In this way, the specialists work together to solve the problem. The blackboard model was originally designed as a way to handle complex, ill-defined problems, where the solution is the sum of its parts.
+
+ 7e) when idealy? trying to co-ordinating large, loosely structured communities.  e.g. gangs of grad students working at different universities on the same goal
 
 4. Pipe and Fiter:
        - Describe the components of a pipe and filter architecture.
