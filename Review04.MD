@@ -84,6 +84,12 @@ Interactive transformations are difficult – Filters being independent entities
 
 MEAN = MongoDb, Express, Angular, NodeJS. Everything is done in JavaScript, and there's no OS involved.
 
+open for the agile folk to run around and do things like (a) build unified testing frameworks that work at all layers of the system (b) run optimizers across the whole system (c) do anything at all across the whole system. layers aren't meant to be like that. layers are meant to be "you live at layer[i] and you only ever see the api to layer i+1 and i-1
+
+[5:09]  
+in LAMP, you can do that "full layered" analysis. you write your (e.g.) php code up HERE and hope the linux OS down THERE work ok.
+
+
        - Why is MEAN replacing LAMP in certain fast-paced organizations?
 One language (JavaScript), one language up and down the stack (javascript) so (1) faster integrated testing; and (2) faster invention of new patterns.; NoSQL database, easy to scale.
 
