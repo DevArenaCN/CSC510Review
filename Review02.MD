@@ -157,10 +157,9 @@ _  = None;  Coc2tunings = [[
 1.     COCOMO is a parametric effort estimation methods
       - What is the central intuition of the COCOMO equation?
 
-
+The core intuition behind COCOMO-based estimation is that, as a program grows in size, the development effort grows exponentially.
 
       - Write down the COCOMO equation (hint: it should fit in half a line)
-
 
 _Effort = a * KLOC<sup>(b + C/100)</sup> * D_
 
