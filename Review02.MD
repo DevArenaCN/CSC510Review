@@ -165,7 +165,9 @@ _Effort = a * KLOC<sup>(b + C/100)</sup> * D_
 
       - What are the for "P" of the COCOMO attributes? Give one example of each "P"
 
-People required.
+Platform, personnel, product
+
+note that process is different to product. product is what ur building. process is how you are dong it.
 
       - In COCOMO co-effecients are shown above, what is `acap` ? What happens to project development effort when it is increased? Why?
 
@@ -176,8 +178,7 @@ Analyst capability.
 
 Product complexity.
 
-      - From the above parameters, find how much faster a fully distributed system compared to a fully
-centralized site. If needed, you may assume that the system has 100,000 lines of code.
+      - From the above parameters, find how much faster a fully distributed system compared to a fully centralized site. If needed, you may assume that the system has 100,000 lines of code.
 
 
 
