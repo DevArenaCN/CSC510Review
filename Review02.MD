@@ -190,6 +190,8 @@ Use human expertise (possibly augmented with process guidelines, checklists, and
 
 Good for producing one estimate, not a range of estimates.
 
+ there are experts around that know more than any trite simplistic equational model
+
 3.    "Planning poker" is  strategy is suitable for group discussion effort estimation environment
       -  Describe this approach plus one advantage and one disadvantage of using this method.
 
