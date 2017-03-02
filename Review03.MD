@@ -39,7 +39,7 @@ ______________________________________________
  
 5)    Write two advantages of state chart. 
 
-Directly translatable to executable code. Many tools from the formal verification community to prove properties across FSMs + WHich is very important for safety critical software
+Directly translatable to executable code. Many tools from the formal verification community to prove properties across FSMs + WHich is very important for safety critical software. precise semantics. thus enabling automated tool for verification/optimization . also, some claim visual formalisms are superior , instantly accessible etc. yeah, right... when the diagrams get too big, everyone gets confused
 
 
 
@@ -77,7 +77,7 @@ SQL databases uses SQL ( structured query language ) for defining and manipulati
 
 9)    Suppose you have three tables in database: University, Subject and Student. What are insert, update and delete anomalies in this context?
 
-
+if data stored in some hierarchical structure (e.g. students inside subjects) then cant INSERT a student unless a subject exists first.; if students in the same structure are stored in multiple subject ddirectories, then if a student changes address it would be posible to UPDATE the student's address in one diretrory but not the others. similairly, it would be possible to delete all students, accidently just by deleting all subjects
 
 
 10)    How ER based model solves different anomalies for the above scenario? Explain.
