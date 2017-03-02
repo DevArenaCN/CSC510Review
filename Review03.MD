@@ -14,10 +14,10 @@ Experience tells you more than excessive initial analysis, recent research says 
 
 2)    What is commit partition? What is commit partition strategy in spiral model?
 
+each time we hit that line, it is a commit partition. and here, we STOP if we fail the review criteria
 
 
-
-3)    Defend the following statemetns
+3)    Defend the following statements
         - Reuse is the key to productivity
 
 
