@@ -96,30 +96,43 @@ Process models
 - Describe the agile model. 
      - What are its key differences compared to waterfall model?
 
-     +  Decompose development into multiple short sprints (Plan, design, develop, test)
-     +  Less up-front planning, less up-front design
-     +  More testing as part of the development, less reliance on downstream testing
-     +  Catch problems earlier, avoid downstream rework
-     +  Get and respond to feedback earlier, deliver the right thing faster.
+       Decompose development into multiple short sprints (Plan, design, develop, test)
+       
+       Less up-front planning, less up-front design
+       
+       More testing as part of the development, less reliance on downstream testing
+       
+       Catch problems earlier, avoid downstream rework
+       
+       Get and respond to feedback earlier, deliver the right thing faster.
 
      - What are some potential disadvantages of agile?
 
-     +  In case of some software deliverables, especially the large ones, it's difficult to assess
+       In case of some software deliverables, especially the large ones, it's difficult to assess
         the effort required at the beginning of the software development life cycle.
-     +  There's a lack of emphisis on necessary designing and documenting.
-     +  The project can easily get taken off track if the customer representative is not clear what final outcome that they want.
-     +  Only senior programmers are capable of taking the kind of decisions required during the development process.
+     
+     There's a lack of emphisis on necessary designing and documenting.
+     
+     The project can easily get taken off track if the customer representative is not clear what final outcome that they want.
+     
+     Only senior programmers are capable of taking the kind of decisions required during the development process.
         Hence it can be harder for newbies to be agile, unless combined with experienced resources.
 
 - Describe  DevOps? Why it is called DevOps?
-     +  Development and bussiness do continuous planning using backlog.
-     +  Continously conduct design experiments (A/B testing, dark features, etc.)
-     +  Development does continously integration and continously testing.
-     +  Enable automation of testing and everything else by putting APIs on everything.
-     +  DevOps: Improve collaboration between Dev and Ops.
-     +  Make support easier -- monitoring, problem determination, etc.
+     
+     Development and bussiness do continuous planning using backlog.
+     
+     Continously conduct design experiments (A/B testing, dark features, etc.)
+     
+     Development does continously integration and continously testing.
+     
+     Enable automation of testing and everything else by putting APIs on everything.
+     
+     DevOps: Improve collaboration between Dev and Ops.
+     
+     Make support easier -- monitoring, problem determination, etc.
 
-     +  It's called DevOps becuase operation phase in integrated into development.
+     It's called DevOps becuase operation phase in integrated into development.
 
 
 Surveys
