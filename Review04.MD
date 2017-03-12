@@ -1,8 +1,8 @@
 # Review Ques 4
 
 1. What one thing we should be expect in:
-       - a poorly architectured system?
 
+       - a poorly architectured system?
 
 
        - a well architectured  system?
@@ -10,6 +10,7 @@
 Something that lets you work alone half the time, team members can be productive in isolation, but know when they need to talk to others.
 
 2. Package switching network (PSN):
+
        - Define the components of a PSN
 
 Nodes, hosts, packets. psn = package swtich network. nodes edges. data labelled with distination node ids streaming over the edges. if a package arrives at a node that is its distination, it is eaten there. else, it is dispatch owards
@@ -27,6 +28,7 @@ Centralized and decentralized.
 Won't jammed up if one of the hosts are experiencing heavy traffic.
 
 3. Blackboard architecutures:
+
        - Define the components of a blackboard architecture;
 
 Blackboard: global database and knowledge source: logically independent sources of knowledge
