@@ -4,7 +4,7 @@ Test-drven Development
 
 -    According to Kent Beck, why are feedback loops in software development so important?
 
-     + Feedback loops can provide customer satisfaction by rapid, continuous delivery of useful software. It's impossible to write programs right for the first time.
+     It's impossible to write programs right for the first time.
 
 -    When building tests, what is a _mock_ and why are such mocks important?
 
