@@ -158,7 +158,14 @@ Surveys
           +  Qualitative data analysis that generates (as opposed to test) theory by abduction, constant comparison, and theoretical sampling.  
 
 -    Pick any two of the above survery methods and describe how one can be **better** than the other.
+
+Think aloud is better than in structured interviews because you gain insight from creative thought from the interviewees.
+
+Questionnaires are better than Semi Structured Interview because they provide a better evaluation of a LARGE group of responses with less effort
+
 -    Pick any two of the above survey methods and describe one can be **worse** than the other.
+
+
 
 
 Stakeholders
