@@ -18,12 +18,14 @@ each time we hit that line, it is a commit partition. and here, we STOP if we fa
 
 
 3)    Defend the following statements
+
         - Reuse is the key to productivity
 
-
+Economically, there is a major financial incentive to reuse your created, purchased, and acquired assets. 
 
         - Reuse is dangerous 
 
+beware of accepting deliveries from countries that do not honor your own country's license, patents, innovation, and copyrights. 
 
         
 4)    What are the arguments for and against pushing small codes to review?
