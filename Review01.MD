@@ -171,6 +171,27 @@ Questionnaires are better than Semi Structured Interview because they provide a 
 Stakeholders
 
 -   Who are stake holders?
+
+A stakeholder in the architecture of a system is an individual, team, organization, or classes thereof, having an interest in the realization of the system.
+
 -   What is non functional requirement of stakeholders?
+
+Time (Transactions/sec; Response time;Time to complete an operation)
+
+Space (Main memory; Auxiliary memory; Cache)
+
+Usability (Training time; Number of choices; Mouse clicks)
+
+Reliability (Mean time of failure; Downtime probability; Failure rate; Availability)
+
+Robustness (Time to recover; % of incidents leading to catastrophic failure; Odds data corruption after failure)
+
+Portability ( % of non-protable code; Runs on N operating systems; Runs on desktop, tablet, mobile)
+
 -   Assume you are assigned to develop a website of CSC department. Describe different solution for different stakeholders.
+
+
+
 -   What is feature option? Assume you have to design the architecture of a mobile phone. What will be the feature options in this context?
+
+
