@@ -208,12 +208,25 @@ If your organization makes enough money to run itself, and if you view time spen
 
 5.    Case base reasoning is called a non-parametric method.
       - Why? Hint: your answer will have to describe how it works
+      
+ Case-based reasoning (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems. 
+      
       - Give 2 advantages and disadvantages of CBR.
 
-Firstly, when the cache of past cases is updated and appended with additional cases, then a CBR system is instantly updated to the latest findings.
-Secondly, the output of a CBR is made on a case-by-case basis. That is, CBR does not offer some trite generalization over multiple examples. Rather, the advice it gives is specialized to the particular case being considered at the current time.
+Advantage: 
+• Can use when have “weak” domain theory
+• Reduces knowledge acquisition effort
+• Can propose solutions from incomplete problem statement
+• Improves over time as case base grows
+• High user acceptance
  
- 
+Disadvantage： 
+• Cases may not cover domain well
+• Most appropriate cases may not be retrieved
+• Still need similarity, adaptation, and verification knowledge
+• In the absence of a good theory, the indexing, retrieval, learning can be ad hoc.
+
+
 ## Requirements
 
 ![](http://www.isa.us.es/sites/www.isa.us.es.featuremodelanalysis/files/images/MobilePhone.png)
