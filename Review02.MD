@@ -198,7 +198,7 @@ Good for producing one estimate, not a range of estimates.
 
 Advantage: By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
 
-Disadvantage: A study by Moløkken-Østvold and Haugen found that [the] set of control tasks in the same project, estimated by individual experts, achieved similar estimation accuracy as the planning poker tasks. However, for both planning poker and the control group, measures of the median estimation bias indicated that both groups had unbiased estimates, as the typical estimated task was perfectly on target.
+Disadvantage: Estimation changes with different skills and experience
 
 4.    What is no estimate method? When might it be s necessary? 
 
