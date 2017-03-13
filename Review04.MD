@@ -38,8 +38,6 @@ Won't jammed up if one of the hosts are experiencing heavy traffic.
 
        - For which projects are  blackboard architectures are ideal?  
 
- Each knowledge source updates the blackboard with a partial solution when its internal constraints match the blackboard state. In this way, the specialists work together to solve the problem. The blackboard model was originally designed as a way to handle complex, ill-defined problems, where the solution is the sum of its parts.
-
  7e) when idealy? trying to co-ordinating large, loosely structured communities.  e.g. gangs of grad students working at different universities on the same goal
 
 4. Pipe and Fiter:
