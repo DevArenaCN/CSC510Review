@@ -31,8 +31,6 @@ Won't jammed up if one of the hosts are experiencing heavy traffic.
 
        - Define the components of a blackboard architecture;
 
-Blackboard: global database and knowledge source: logically independent sources of knowledge
-
 7a) agents, buzzing around a shared data space.
 7b) the shared data space (a.k.a. the blackboard)
 7c) agents watch the blackboard, not each other
