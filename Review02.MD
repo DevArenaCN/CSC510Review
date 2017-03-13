@@ -164,9 +164,9 @@ The core intuition behind COCOMO-based estimation is that, as a program grows in
 
 _Effort = a * KLOC<sup>(b + C/100)</sup> * D_
 
-      - What are the for "P" of the COCOMO attributes? Give one example of each "P"
+      - What are the four "P" of the COCOMO attributes? Give one example of each "P"
 
-Platform, personnel, product
+Platform, personnel, product, process 
 
 note that process is different to product. product is what ur building. process is how you are dong it.
 
