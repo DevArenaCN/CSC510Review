@@ -56,7 +56,7 @@ Software =
 1.    Spiral models
        - What is the commit partition?
 
-A place to say stop! save money! Projects are canned if we get to the commit point, and some critical functionality is still not working.
+each time we hit that review line, it is a commit partition. and here, we STOP if we fail the review criteria
 
        - How is spriral connected to waterfall?
 
