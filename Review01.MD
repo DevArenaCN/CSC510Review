@@ -194,4 +194,6 @@ Portability ( % of non-protable code; Runs on N operating systems; Runs on deskt
 
 -   What is feature option? Assume you have to design the architecture of a mobile phone. What will be the feature options in this context?
 
+Feature option is what you will build. 
+https://docs.google.com/presentation/d/1jXCpyZX_V7rcnxaN5VSrsUKLhF77ZICrYXB2YU5c3Cc/pub?start=false&loop=false&delayms=3000&slide=id.g1b6c823877_2_81
 
