@@ -195,6 +195,12 @@ Good for producing one estimate, not a range of estimates.
 
 3.    "Planning poker" is  strategy is suitable for group discussion effort estimation environment
       -  Describe this approach plus one advantage and one disadvantage of using this method.
+      
+      members of the group make estimates by playing numbered cards face-down to the table, instead of speaking them aloud.
+cards were numbered by larger and larger numbers e.g. 0, ½, 1, 2, 3, 5, 8, 13, 20, 40, 100, and optionally a
+The cards are revealed, and the estimates are then discussed.
+By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
+
 
 Advantage: By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
 
