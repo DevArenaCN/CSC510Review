@@ -17,10 +17,11 @@ Nodes, hosts, packets. psn = package swtich network. nodes edges. data labelled 
 
        - What other architecture was package switching designed to replace?
 
-Centralized and decentralized.
+Circuit switching
 
        - Why was an advantage of that other architecture?
 
+dedicated channel for single user. User efficiency.
 
 
        - What feature of PSN make it attractive as an alternate architeture?
