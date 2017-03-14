@@ -247,13 +247,17 @@ Allowed: calls, Screen   Forbidden: Camera without high resolution screen, GPS w
 
 
 2.   A client has asked you to develop a word processor. 
-     - Write two non functional requirements for this scenario.
-       For each, list factors that make them easier or harder to fill
+     
+     Write two non functional requirements for this scenario. For each, list factors that make them easier or harder to fill
+     
+Portability : It should work on multiple OS 
+Usability : It should be user friendly, with the most used buttons easily accessible 
 
+List two functional requirements For each, list factors that make them easier or harder to fill
 
+Auto correct features 
+Export to PDF 
 
-     - List two functional requirements
-       For each, list factors that make them easier or harder to fill
 
 
 
