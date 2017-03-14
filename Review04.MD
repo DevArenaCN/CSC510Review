@@ -26,7 +26,7 @@ dedicated channel for single user. User efficiency.
 
        - What feature of PSN make it attractive as an alternate architeture?
 
-Won't jammed up if one of the hosts are experiencing heavy traffic.
+utilize of resources by all parties. Not charged only by one person.
 
 3. Blackboard architecutures:
 
