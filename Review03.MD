@@ -98,6 +98,26 @@ They can be directly implemented into code.
 
 13)    What is compartmental model? Give a small example of using this model for a grocery shop supply chain from warehouse to supermarket shelves.
 
+flows - inflows and outflows of stocks
+- representation of first order linear differential equation or derivative
+- time is a central driving force
+- disadv
+	+ time is discrete and fixed, which in all states leads to inaccuracy
+	+ hard to know if system is really closed, can be leaky
+	+ sensitive to starting configuration - can vary widely
+	+ homogeneity assumption - are stocks truly homogeneous
+	+ correctness of equations
+
+Departmental store compartmental model
+- stocks - grocery products
+- inflows - warehouse
+- outflows - department
+- valve - product transfer rate
+- flow enhancer/inhibitor - transport personnels - vehicles - weather - gas prices - cost of transportation - time of transportation
+
+References:
+- https://wiki.eclipse.org/Introduction_to_Compartment_Models
+- http://www4.ncsu.edu/%7Emsolufse/Compartmentmodels.pdf
 
 
 14)    What are the limitations of compartmental model?
