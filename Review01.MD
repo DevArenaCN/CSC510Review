@@ -151,6 +151,8 @@ Surveys
 Stakeholders
 
 -   Who are stake holders?
+
+
 -   What is non functional requirement of stakeholders?
 -   Assume you are assigned to develop a website of CSC department. Describe different solution for different stakeholders.
 -   What is feature option? Assume you have to design the architecture of a mobile phone. What will be the feature options in this context?
