@@ -1,8 +1,8 @@
 # Review Ques 4
 
 1. What one thing we should be expect in:
-       - a poorly architectured system?
 
+       - a poorly architectured system?
 
 
        - a well architectured  system?
@@ -10,26 +10,27 @@
 Something that lets you work alone half the time, team members can be productive in isolation, but know when they need to talk to others.
 
 2. Package switching network (PSN):
+
        - Define the components of a PSN
 
 Nodes, hosts, packets. psn = package swtich network. nodes edges. data labelled with distination node ids streaming over the edges. if a package arrives at a node that is its distination, it is eaten there. else, it is dispatch owards
 
        - What other architecture was package switching designed to replace?
 
-Centralized and decentralized.
+Circuit switching
 
        - Why was an advantage of that other architecture?
 
+dedicated channel for single user. User efficiency.
 
 
        - What feature of PSN make it attractive as an alternate architeture?
 
-Won't jammed up if one of the hosts are experiencing heavy traffic.
+utilize of resources by all parties. Not charged only by one person.
 
 3. Blackboard architecutures:
-       - Define the components of a blackboard architecture;
 
-Blackboard: global database and knowledge source: logically independent sources of knowledge
+       - Define the components of a blackboard architecture;
 
 7a) agents, buzzing around a shared data space.
 7b) the shared data space (a.k.a. the blackboard)
@@ -37,8 +38,6 @@ Blackboard: global database and knowledge source: logically independent sources 
 7d) for advanced pattern recognition applications, the blackboard is divided hierarchically and agents read from layer i to write some high-lelvel knowledge to layer i+1
 
        - For which projects are  blackboard architectures are ideal?  
-
- Each knowledge source updates the blackboard with a partial solution when its internal constraints match the blackboard state. In this way, the specialists work together to solve the problem. The blackboard model was originally designed as a way to handle complex, ill-defined problems, where the solution is the sum of its parts.
 
  7e) when idealy? trying to co-ordinating large, loosely structured communities.  e.g. gangs of grad students working at different universities on the same goal
 
@@ -116,5 +115,5 @@ Subject-Observer
 
        - Describe different components of this architecture with respect to the above example.
 
-
+The observer pattern is a software design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
        

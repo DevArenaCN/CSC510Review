@@ -4,7 +4,7 @@ Test-drven Development
 
 -    According to Kent Beck, why are feedback loops in software development so important?
 
-     + Feedback loops can provide customer satisfaction by rapid, continuous delivery of useful software. It's impossible to write programs right for the first time.
+     It's impossible to write programs right for the first time.
 
 -    When building tests, what is a _mock_ and why are such mocks important?
 
@@ -96,30 +96,43 @@ Process models
 - Describe the agile model. 
      - What are its key differences compared to waterfall model?
 
-     +  Decompose development into multiple short sprints (Plan, design, develop, test)
-     +  Less up-front planning, less up-front design
-     +  More testing as part of the development, less reliance on downstream testing
-     +  Catch problems earlier, avoid downstream rework
-     +  Get and respond to feedback earlier, deliver the right thing faster.
+       Decompose development into multiple short sprints (Plan, design, develop, test)
+       
+       Less up-front planning, less up-front design
+       
+       More testing as part of the development, less reliance on downstream testing
+       
+       Catch problems earlier, avoid downstream rework
+       
+       Get and respond to feedback earlier, deliver the right thing faster.
 
      - What are some potential disadvantages of agile?
 
-     +  In case of some software deliverables, especially the large ones, it's difficult to assess
+       In case of some software deliverables, especially the large ones, it's difficult to assess
         the effort required at the beginning of the software development life cycle.
-     +  There's a lack of emphisis on necessary designing and documenting.
-     +  The project can easily get taken off track if the customer representative is not clear what final outcome that they want.
-     +  Only senior programmers are capable of taking the kind of decisions required during the development process.
+     
+     There's a lack of emphisis on necessary designing and documenting.
+     
+     The project can easily get taken off track if the customer representative is not clear what final outcome that they want.
+     
+     Only senior programmers are capable of taking the kind of decisions required during the development process.
         Hence it can be harder for newbies to be agile, unless combined with experienced resources.
 
 - Describe  DevOps? Why it is called DevOps?
-     +  Development and bussiness do continuous planning using backlog.
-     +  Continously conduct design experiments (A/B testing, dark features, etc.)
-     +  Development does continously integration and continously testing.
-     +  Enable automation of testing and everything else by putting APIs on everything.
-     +  DevOps: Improve collaboration between Dev and Ops.
-     +  Make support easier -- monitoring, problem determination, etc.
+     
+     Development and bussiness do continuous planning using backlog.
+     
+     Continously conduct design experiments (A/B testing, dark features, etc.)
+     
+     Development does continously integration and continously testing.
+     
+     Enable automation of testing and everything else by putting APIs on everything.
+     
+     DevOps: Improve collaboration between Dev and Ops.
+     
+     Make support easier -- monitoring, problem determination, etc.
 
-     +  It's called DevOps becuase operation phase in integrated into development.
+     It's called DevOps becuase operation phase in integrated into development.
 
 
 Surveys
@@ -145,14 +158,43 @@ Surveys
           +  Qualitative data analysis that generates (as opposed to test) theory by abduction, constant comparison, and theoretical sampling.  
 
 -    Pick any two of the above survery methods and describe how one can be **better** than the other.
+
+Think aloud is better than in structured interviews because you gain insight from creative thought from the interviewees.
+
+Questionnaires are better than Semi Structured Interview because they provide a better evaluation of a LARGE group of responses with less effort
+
 -    Pick any two of the above survey methods and describe one can be **worse** than the other.
+
+
 
 
 Stakeholders
 
 -   Who are stake holders?
 
+A stakeholder in the architecture of a system is an individual, team, organization, or classes thereof, having an interest in the realization of the system.
+
 
 -   What is non functional requirement of stakeholders?
+
+Time (Transactions/sec; Response time;Time to complete an operation)
+
+Space (Main memory; Auxiliary memory; Cache)
+
+Usability (Training time; Number of choices; Mouse clicks)
+
+Reliability (Mean time of failure; Downtime probability; Failure rate; Availability)
+
+Robustness (Time to recover; % of incidents leading to catastrophic failure; Odds data corruption after failure)
+
+Portability ( % of non-protable code; Runs on N operating systems; Runs on desktop, tablet, mobile)
+
 -   Assume you are assigned to develop a website of CSC department. Describe different solution for different stakeholders.
+
+
+
 -   What is feature option? Assume you have to design the architecture of a mobile phone. What will be the feature options in this context?
+
+Feature option is what you will build. 
+https://docs.google.com/presentation/d/1jXCpyZX_V7rcnxaN5VSrsUKLhF77ZICrYXB2YU5c3Cc/pub?start=false&loop=false&delayms=3000&slide=id.g1b6c823877_2_81
+

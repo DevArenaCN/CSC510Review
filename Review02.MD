@@ -4,6 +4,7 @@
 
 
 1.    What are drawbacks of early requirement addressing?
+
 premature commitment to the wrong ideas can misdirect a project. advocates of agile claim better to get some experience before fully creating requirements
 
 2.    Define and distinguish unit, system and integration testing.
@@ -55,7 +56,7 @@ Software =
 1.    Spiral models
        - What is the commit partition?
 
-A place to say stop! save money! Projects are canned if we get to the commit point, and some critical functionality is still not working.
+each time we hit that review line, it is a commit partition. and here, we STOP if we fail the review criteria
 
        - How is spriral connected to waterfall?
 
@@ -163,9 +164,9 @@ The core intuition behind COCOMO-based estimation is that, as a program grows in
 
 _Effort = a * KLOC<sup>(b + C/100)</sup> * D_
 
-      - What are the for "P" of the COCOMO attributes? Give one example of each "P"
+      - What are the four "P" of the COCOMO attributes? Give one example of each "P"
 
-Platform, personnel, product
+Platform, personnel, product, process 
 
 note that process is different to product. product is what ur building. process is how you are dong it.
 
@@ -194,10 +195,16 @@ Good for producing one estimate, not a range of estimates.
 
 3.    "Planning poker" is  strategy is suitable for group discussion effort estimation environment
       -  Describe this approach plus one advantage and one disadvantage of using this method.
+      
+      members of the group make estimates by playing numbered cards face-down to the table, instead of speaking them aloud.
+cards were numbered by larger and larger numbers e.g. 0, ½, 1, 2, 3, 5, 8, 13, 20, 40, 100, and optionally a
+The cards are revealed, and the estimates are then discussed.
+By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
+
 
 Advantage: By hiding the figures in this way, the group can avoid the cognitive bias of anchoring, where the first number spoken aloud sets a precedent for subsequent estimates.
 
-Disadvantage: A study by Moløkken-Østvold and Haugen found that [the] set of control tasks in the same project, estimated by individual experts, achieved similar estimation accuracy as the planning poker tasks. However, for both planning poker and the control group, measures of the median estimation bias indicated that both groups had unbiased estimates, as the typical estimated task was perfectly on target.
+Disadvantage: Estimation changes with different skills and experience
 
 4.    What is no estimate method? When might it be s necessary? 
 
@@ -207,12 +214,25 @@ If your organization makes enough money to run itself, and if you view time spen
 
 5.    Case base reasoning is called a non-parametric method.
       - Why? Hint: your answer will have to describe how it works
+      
+ Case-based reasoning (CBR), broadly construed, is the process of solving new problems based on the solutions of similar past problems. 
+      
       - Give 2 advantages and disadvantages of CBR.
 
-Firstly, when the cache of past cases is updated and appended with additional cases, then a CBR system is instantly updated to the latest findings.
-Secondly, the output of a CBR is made on a case-by-case basis. That is, CBR does not offer some trite generalization over multiple examples. Rather, the advice it gives is specialized to the particular case being considered at the current time.
+Advantage: 
+• Can use when have “weak” domain theory
+• Reduces knowledge acquisition effort
+• Can propose solutions from incomplete problem statement
+• Improves over time as case base grows
+• High user acceptance
  
- 
+Disadvantage： 
+• Cases may not cover domain well
+• Most appropriate cases may not be retrieved
+• Still need similarity, adaptation, and verification knowledge
+• In the absence of a good theory, the indexing, retrieval, learning can be ad hoc.
+
+
 ## Requirements
 
 ![](http://www.isa.us.es/sites/www.isa.us.es.featuremodelanalysis/files/images/MobilePhone.png)
@@ -227,13 +247,17 @@ Allowed: calls, Screen   Forbidden: Camera without high resolution screen, GPS w
 
 
 2.   A client has asked you to develop a word processor. 
-     - Write two non functional requirements for this scenario.
-       For each, list factors that make them easier or harder to fill
+     
+     Write two non functional requirements for this scenario. For each, list factors that make them easier or harder to fill
+     
+Portability : It should work on multiple OS 
+Usability : It should be user friendly, with the most used buttons easily accessible 
 
+List two functional requirements For each, list factors that make them easier or harder to fill
 
+Auto correct features 
+Export to PDF 
 
-     - List two functional requirements
-       For each, list factors that make them easier or harder to fill
 
 
 
