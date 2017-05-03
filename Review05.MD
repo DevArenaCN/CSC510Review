@@ -91,8 +91,15 @@ Erlang provides language-level features for creating and managing processes with
 7. Heuristics
      - what is YAGNI? Describe an industrial scenario where YAGNI might save development costs.
 
+"You aren't gonna need it". "Always implement things when you actually need them, never when you just foresee that you need them.
 
 
-     - what is the  rule of 3? Describe an industrial scenario where YAGNI might save development costs.
+     - what is the rule of 3? Describe an industrial scenario where YAGNI might save development costs.
+
+Rule of three is a code refactoring rule of thumb to decide when a replicated piece of code should be replaced by a new procedure. It states that the code can be copied once, but that when the same code is used three times, it should be extracted into a new procedure.
+
 8. Patterns: Suppose you are working with a 3-tier architecture system for employee management. The system composed of  a database layer, business logic, and GUI. Many parts of codes are reused in this system. As an example: the database needs to know the valid ranges for `age` and so does the GUI.
      - What design pattern might be useful for the  business logic associated with this application? Give reasoning on behalf of your answer.
+
+
+     
