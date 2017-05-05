@@ -123,6 +123,52 @@ Much slower to run, not the kind of thing to give you instant feedback.
 
 ## Effort estimation
 
+1. What is software overestimation? What are its effects on development?
+
+The actual effort to build the software is less than what has been estimated in the beginning.
+
+Overestimation hinders the acceptance of promising ideas, thus threatening organizational competitiveness.
+
+2. What is software underestimation? What are its effects on development?
+
+The actual effort to build the software is more than what has been estimated in the beginning.
+
+Underestimation results in schedule and budget overruns, which may cause project cancellation
+
+3. What is "big bang estimation"? Describe its advantages and disadvantages.
+
+Estimate at the start to allocate resources.
+
+Advantage: Needed when development part of very large resource allocations
+
+Disadvantage: If the scope or technology changes during the period of the project, then the big bang's estimates will be wildly inaccurate.
+
+4. How to do run software projects via "feature maturity"?
+
+Developers compete to get their new feature mature enough to add into existing platform; The "winning" developers are rewarded (financially at annual review time, with promotions) if their features make it in.
+
+     - What kinds of organizations are suitable for adopting this strategy?
+     
+     Large organizations with an existing product and cash flow work as follows.
+     
+5. What is parametric software effort estimation?
+
+Collect data on some pre-defined set of values, map it into a pre-defined parametric form.
+
+    - What is needed to use this kind of estimation?
+    
+    
+    
+6. Explain each of the following approaches to effort estimation:
+     - Big bang?
+     
+     Make Starting Amount of Money Small; Deliver Working Software Often; Fund a Pilot That Delivers Working Software; Then Use Modeling to Forecast Schedule; Move From Contract Negotiation to Partnership
+     
+7. An analysts estimates the development time of a softare project, as a single value. What are the drawbacks to such a single-point estimate?
+
+Some degree of uncertainty is inherent in the analysis of real world data. While not all data has performance ranges as large as those seen in above, such ranges are inherent in real-world data. The predictions come from a sampling process and, hence, these conclusions are a distribution rather than a single point.
+
+
 ```python 
 _  = None;  Coc2tunings = [[
 #              vlow  low   nom   high  vhigh  xhigh   
