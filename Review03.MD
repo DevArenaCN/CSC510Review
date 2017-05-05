@@ -84,12 +84,16 @@ if data stored in some hierarchical structure (e.g. students inside subjects) th
 
 10)    How ER based model solves different anomalies for the above scenario? Explain.
 
-
+solves inconsistency by mapping relations
 
 11)    Why does some people claim ER is not suitable for agile development?
 
 One of the advantage of Agile is that it has the ability to regular adapt changing circumstances, for ER model it's hard to change and harder to scale.
 Agile development involves a lot of changes during development stage whereas changes to ER models could be more difficult to change and time consuming
+
+	+ in agile - data is frequently changing
+	+ er diagram takes time to build
+	+ still have to write implementation code
 
 
 12)    What state chart and ER based models have in common?
