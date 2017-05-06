@@ -6,19 +6,25 @@ ________________
 1. As precisely as you can (two lines each, at most), define the following.  Your definition should mention inputs,outputs and side-effects:
     - functions
 
-???A function is a block of organized, reusable code that is used to perform a single, related action.
+???A function is a block of organized, reusable code that is used to perform a single, related action. No side effect.
 
     - predictes
 
-Predicate is a function that takes one element as input parameter and return either true or false. 
+Predicate is a function that takes one element as input parameter and return either true or false. Also updates bindings. 
 
 2. Assume a purely logic language where any word starting with upper case is an unbound variable.
    In that logical language what are the outputs and side-effects of the following:
     - emp(tim,42) = emp(Name,Age)
+    
+    Output : TRUE | Side Effect : Name = tim, Age = 42
+    
     - emp(Who,42)  =  emp(tom, Age)
+    
+    Output : TRUE | Side Effect : Who=tom, Age = 42
+    
     - emp(tom,42) = emp(tim,Age)
-
-
+    
+    Output : FALSE | Side Effect Age= 42
 
 3. Closures
     -  Define "closures"?
