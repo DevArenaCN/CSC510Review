@@ -105,6 +105,10 @@ State covertage is the minimum testing criterion which might not cover the trans
          - Why not just write tests for everything and run those tests all the time some change is made to the code?
 
 Takes too much time
-         - List Google's three criteria for priotiziation test cases
+       
+       - List Google's three criteria for priotiziation test cases
 
+1.Always test new features
+2. Test feature which has not been tested for a long time
+3. Test features which failed recently.
 
