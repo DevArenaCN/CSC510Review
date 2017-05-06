@@ -112,3 +112,21 @@ Takes too much time
 2. Test feature which has not been tested for a long time
 3. Test features which failed recently.
 
+11. Define all-pairs testing.
+         - A program has five boolean inputs. A test suite is proposed where 1=false 2=true 0=dontcare. 
+	   Do the follow tests satisfy the all-pairs requirement?
+
+```
+((2 2 1 1 1)
+(2 1 2 2 2)
+(1 2 2 1 2)
+(1 1 1 2 1)
+(0 2 2 2 2)
+(0 1 1 1 2))
+```
+
+
+all-pairs testing or pairwise testing is a combinatorial method of software testing that, for each pair of input parameters to a system (typically, a software algorithm), tests all possible discrete combinations of those parameters. Using carefully chosen test vectors, this can be done much faster than an exhaustive search of all combinations of all parameters, by "parallelizing" the tests of parameter pairs.
+NO! For the feature pair (3,5), input option (2,1) is missing in the test cases
+
+
