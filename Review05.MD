@@ -65,7 +65,7 @@ They don’t run into type mismatch during Runtime. Those cases are handled duri
      
      - Why might type inference be easier in Python than Java?
 
-Python is a dynamically-typed language. Java is a statically-typed language. In a statically-typed language, the following sequence of statements (which binds an integer object, then a string object, to the name employeeName) is illegal. If employeeName had been declared to be an int, then the second statement would be illegal; if it had been declared to be a String, then the first statement would be illegal. But in a dynamically-typed language this sequence of statements is perfectly fine.
+Python is a dynamically typed language. Variables are not bound to a type by default. 
 
 
 5. Folding
