@@ -97,6 +97,8 @@ Erlang provides language-level features for creating and managing processes with
 
 "You aren't gonna need it". "Always implement things when you actually need them, never when you just foresee that you need them.
 
+ALGOL is an example of software disasters caused by over-designed systems which were so complicated that nobody was able to implement them properly. YAGNI approach here could have reduced the development scope, and added only essential features in its libraries.
+
 
      - what is the rule of 3? Describe an industrial scenario where YAGNI might save development costs.
 
