@@ -41,10 +41,11 @@ Testing API calls, I would use blackbox over whitebox.
 5.    Describe three ways to reduce the effort associated with blackbox testing (by the way: one of them may sound
       a little whitebox-ish).
 
-1)Systematic Partition Testing.
-2)Equivalence Partitioning. 
-3)Boundary Analysis.
+1)Systematic Partition Testing - Try to split up the Input space into classes, using equivalence partitioning, or boundary analysis. 
 
+2)Condition Coverage - Use heuristics like Pairwise testing, All Pairs testing to cover the input space. 
+
+3)Model Based - Use model and representative values to generate test cases. (Finite State Machines, or Decision Structures) 
 
 
 6.    A particular kind of white box testing is model based testing
@@ -69,16 +70,18 @@ All pairs testing is a combinatorial method of software testing that for each pa
 
         - Comment: all pairs testing is crazy
 
-
+It does not cover all the possible test cases.  Number of test cases in all pairs is drastically less compared to the actual number of possible combinations
 
         - Comment: all pairs testing relies on a realistic assumption about the world.
 
-
+In the real world, it is hard to reproduce a scenario with more than 2 specific feature values. It is impossible to test everything! 
 
 8.    What is Gunes Koru's heuristic for detecting bugs by inspecting less code? Try to justify why the Koru method might work.
 
 Smaller methods have disproportionately more methods than larger methods.
 Sort code smallest to largest; Until you run out of time, read in that order.
+
+According to the paper, smaller modules tend to have higher coupling, and dependency with other parts of code, resulting in higher probability of bugs. 
 
 9.    LOC vs state coverage test: 
          - define LOC coverage
