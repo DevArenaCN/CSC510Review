@@ -36,15 +36,8 @@ The scope of some inner function refers to an outer scope's variables.
 The inner function is passed around as a variable, carrying with it the inner scope and the outer scope.
 
     - In the following, when the `add` variable is initialized, what are the two parts of it contents?
-
-```
-return counter += 1;
-
-```
-
-```
-return function ()
-```
+    
+ An anonymous function, and the variable counter
 
     - In the following, When the above `add` is created, then used 3 times, what is returns?             
 ```
