@@ -51,7 +51,12 @@ add();
 add();
 ```
 
-Returns 1, 2, 3
+ It always returns the anonymous function. If you want to get the counter values, you have to execute the anonymous function. 
+For ex : 
+Var a = add() // add returns anonymous function
+a() // returns 1
+a() // returns 2
+a() // returns 3
 
 4. Type inference
      - It is claimed that languages that support type inference are less buggy. Why?
