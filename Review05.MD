@@ -61,7 +61,7 @@ a() // returns 3
 4. Type inference
      - It is claimed that languages that support type inference are less buggy. Why?
 
-It requires the programmer to explicitly declaring the data type of an expression in the program, if the type doesn't match, it will throw an error.
+They don’t run into type mismatch during Runtime. Those cases are handled during compilation itself. 
      
      - Why might type inference be easier in Python than Java?
 
