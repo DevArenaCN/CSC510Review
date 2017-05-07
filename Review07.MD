@@ -29,6 +29,14 @@ All good software design will go for high cohesion and low coupling.
 
 5. What is the layered patterns? Name one advantage and one disadvantage for layers. 
 
+Components are organized into horizontal layers, each layer performing a specific role within the application 
+
+Layer i is allowed to communicate only with i+1 layer or i-1 layer.
+
+Advantages: Easier to debug, replace on layer with another and check for impact only in plus minus 1 layer.
+
+Disadvantage: Inflexible.
+
 
 
 6. What is the proxy pattern? What does it offer to coupling? What does it offer to layers?
