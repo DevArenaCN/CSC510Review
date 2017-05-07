@@ -41,6 +41,11 @@ Disadvantage: Inflexible.
 
 6. What is the proxy pattern? What does it offer to coupling? What does it offer to layers?
 
+A proxy, in its most general form, is a class functioning as an interface to something else. The proxy could interface to anything: a network connection, a large object in memory, a file, or some other resource that is expensive or impossible to duplicate. In short, a proxy is a wrapper or agent object that is being called by the client to access the real serving object behind the scenes.
+
+Proxy patterns generate a loose coupling between the caller and the callee. You can very well vary the callee without worrying about informing the caller.
+
+Proxy patterns naturally fit well in layered architecture since these can be used to communicate between layers simultaneously providing a loose coupling.
 
 
 7. A body has several limbs. Limbs have extremities (hands or feet).  Extremeties contain toes or fingers. 
@@ -50,7 +55,13 @@ Composite pattern
 
    - Briefly describe the components of that design pattern.
   
-COmpose objects into tree structures to represent part-whole hierarchies. Let clients treat individual objects and compositions of objects uniformly. 
+This is similar to the composite design pattern.
+
+In this pattern, we Compose objects into tree structures to represent whole-part hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+
+Structure of composite pattern
+
+composite -> leaf or composite
 
 ## Anti patterns:
 
@@ -60,7 +71,20 @@ A "God Class" is an object that controls way too many other objects in the syste
 
 9. For OO purists, "type switching" statements are bad. What is an example of such a statement. How to fix it? What general principle of OO is demonstrated by that fix?
 
+e.g
+```
+   void speak(){
+    switch(type){
 
+        case DOG: println(“woof woof”);
+        case CAT: println(“mew”);
+        case TIGER: println(“roar!!“);
+    }
+}
+```
+The downsides of switching on type are self-explanatory. Normally, when switching behavior based on type, I try to push the behavior into subclasses so that I can reduce this to a single method call, and let polymorphism take care of the rest.
+
+Polymorphism is demonstarted by this fix.
 
 10. Do all bad smells really matter? Explain.
 
