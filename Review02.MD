@@ -17,12 +17,13 @@ Integration testing, also known as integration and testing (I&T), is a software 
 
 3.    Describe two problems of underestimation effort.
 
-Problem1: Uncertainty. We don't know how hard it will be to build software, until we build it.
+- Schedule and budget overruns
+- Loss of quality assurance
 
-Problem2: Better,Faster,Cheaper (pick any two). Deliver faster, spend less money? Prepare for more defects; Deliver faster with fewer defects? Stand by to spend lots more (e.g. on hyper-quality programmers); Fewer defects, spend less money? You'll need to reign in scope.
+4.    Describe two problems of overestimation effort.
 
-Problem3: Relucatance to Learn from Experience. When engineers fail to revise their beliefs, this leads to poor estimates.
-
+- Hinders acceptance of promising ideas
+- threatens organizational competitiveness
 
 5.    Boehm reports a certain shape in the cost-estimation uncertainty curve as a project moves from initial planning to final delivery
     - Draw that shape
