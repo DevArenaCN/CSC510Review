@@ -88,7 +88,13 @@ Polymorphism is demonstarted by this fix.
 
 10. Do all bad smells really matter? Explain.
 
+No. Dr. Tim Menzies argues against this in his paper, Less is More: Minimizing Code Reorganization using XTREE claims the answer to be No.
 
+The premise of this paper is that not every bad smell needs to be fixed.
+
+The paper introduces XTREE, a framework that analyses a historical log of defects seen previously in the code and generates a set of useful code changes. Any bad smell that requires changes outside of that set can be deprioritized (since there is no historical evidence that the bad smell causes any problems).
+
+XTREES recommendations were evaluated and cross-checked using multiple data sets of code metrics and defect counts.
 
 11. Give two examples of each of the following bad smells:
     - Bloating
