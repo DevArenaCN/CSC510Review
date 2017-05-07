@@ -92,6 +92,8 @@ LOC coverage is a measure used to describe the degree to which the source code o
 
 State covertage is the minimum testing criterion which might not cover the transition where a bug might occur.
 
+State coverage seems more efficient since in a thousands of lines of source code, it becomes extremely difficult to create tests to covery every line. Instead if we create the finite state machine of the system (e.g consider the code of TCP protocol) and create tests to cover every state, thats far more easier, faster and efficient since it correctly encapsulates the working of the system.
+
 10.   Test case prioritization:
          - What are the 20:80 rule for testing? How to use that to optimize testing effort?
 
