@@ -107,5 +107,7 @@ Rule of three is a code refactoring rule of thumb to decide when a replicated pi
 8. Patterns: Suppose you are working with a 3-tier architecture system for employee management. The system composed of  a database layer, business logic, and GUI. Many parts of codes are reused in this system. As an example: the database needs to know the valid ranges for `age` and so does the GUI.
      - What design pattern might be useful for the  business logic associated with this application? Give reasoning on behalf of your answer.
 
-MVC has three roles: the Model, the View, and the Controller. The Model represents data (perhaps a domain model that includes business rules); the View represents the UI; and the Controller handles requests, manipulates the model, and performs other operations.
+Bridge.
+
+We decouple an abstraction from its implementation so the two can vary independently. This helps us exert control over the business logic without affecting the GUI or database since the interfaces are now decoupled.
      
