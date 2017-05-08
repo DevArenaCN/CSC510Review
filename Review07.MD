@@ -11,15 +11,12 @@ The nature of the Visitor makes it an ideal pattern to plug into public APIs thu
 
 2. Give an example where factory pattern is suitable in class design. How could factory be usefully combined with visitor.
 
-The creation of an object makes reuse impossible without significant duplication of code.
-
+Define an interface for creating an object, but let subclasses decide which class to instantiate. The Factory method lets a class defer instantiation it uses to subclasses.
 
 
 3. What is a singleton pattern? Give an example. What is the connection between factory and singleton?
 
 Ensure a class only has one instance and provide a global point of access to it.
-
-A Factory which itself is a Singleton, that creates a Singleton. This factory than can be used to return an implementation of a interface which a range of Singletons could define the implementations of. The single most important factor that makes a class a Singleton is a “private constructor”. By having a private constructor, there is NO other Class except for itself that can create an Object instance of that class.
 
 4. What is coupling and cohesion among classes? Ideally, how should design alter these values? Justify your answer.
 
@@ -67,7 +64,12 @@ composite -> leaf or composite
 
 8. What is a god class? How to recognize it? How to fix it?
 
-A "God Class" is an object that controls way too many other objects in the system and has grown beyond all logic to become The Class That Does Everything. Seperate into smaller classes that solves only a small part of the problems or only one problem.
+A "God Class" is an object that controls way too many other objects in the system and has grown beyond all logic to become The Class That Does Everything. 
+
+Recognize:
+Class diagram composed of a single complex controller class surrounded by simple data classes.  Single class with a large number of attributes, operations, or both.  A disparate collection of unrelated attributes and operations encapsulated in a single class.  A migrated legacy design that has not been properly refactored into an OO architecture.
+
+The solution involves a form of refactoring. The key here is to move behaviour away from the “God Class”. Identify and categorize related attributes and operations and create different classes for them.
 
 9. For OO purists, "type switching" statements are bad. What is an example of such a statement. How to fix it? What general principle of OO is demonstrated by that fix?
 
@@ -82,7 +84,8 @@ e.g
     }
 }
 ```
-The downsides of switching on type are self-explanatory. Normally, when switching behavior based on type, I try to push the behavior into subclasses so that I can reduce this to a single method call, and let polymorphism take care of the rest.
+Fix:
+Create subclasses for each value of the coded type. Then extract the relevant behaviors from the original class to these subclasses. Replace the control flow code with polymorphism.
 
 Polymorphism is demonstarted by this fix.
 
